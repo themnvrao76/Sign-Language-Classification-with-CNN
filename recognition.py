@@ -7,7 +7,7 @@ import string
 import os
 categories=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
         'L', 'M', 'N','O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
-        'W', 'X', 'Y', 'Z','fuck','nothing']
+        'W', 'X', 'Y', 'Z','middle finger','nothing']
 
 model = keras.models.load_model("version98.h5")
 cam=cv2.VideoCapture(cv2.CAP_DSHOW)
